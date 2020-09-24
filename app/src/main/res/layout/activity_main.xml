@@ -13,13 +13,16 @@
         android:layout_centerInParent="true"
         android:weightSum="13"
         android:layout_height="wrap_content">
-        
+
         <Button
-            android:layout_width="wrap_content"
-            android:text="DO"
+            android:layout_width="90dp"
             android:layout_weight="1"
             android:id="@+id/c4"
-            android:layout_height="500dp" />
+            android:layout_height="400dp"
+            android:background="@drawable/d1"
+
+            />
+
 
        <!-- <Button
             android:layout_width="wrap_content"
@@ -30,11 +33,12 @@
         -->
 
         <Button
-            android:layout_width="wrap_content"
-            android:text="RE"
+            android:layout_width="90dp"
             android:layout_weight="1"
             android:id="@+id/d4"
-            android:layout_height="500dp" />
+            android:layout_height="400dp"
+            android:background="@drawable/b3"
+            />
 
     <!--    <Button
             android:layout_width="wrap_content"
@@ -44,18 +48,20 @@
             android:layout_height="wrap_content" />
     -->
         <Button
-            android:layout_width="wrap_content"
-            android:text="MI"
+            android:layout_width="90dp"
             android:layout_weight="1"
             android:id="@+id/e4"
-            android:layout_height="500dp" />
+            android:layout_height="400dp"
+            android:background="@drawable/e2"
+            />
 
         <Button
-            android:layout_width="wrap_content"
-            android:text="FA"
+            android:layout_width="90dp"
             android:layout_weight="1"
             android:id="@+id/f4"
-            android:layout_height="500dp" />
+            android:layout_height="400dp"
+            android:background="@drawable/d1"
+            />
 
         <!--<Button
             android:layout_width="wrap_content"
@@ -65,11 +71,12 @@
             android:layout_height="wrap_content" /> -->
 
         <Button
-            android:layout_width="wrap_content"
-            android:text="SOL"
+            android:layout_width="90dp"
             android:layout_weight="1"
             android:id="@+id/g4"
-            android:layout_height="500dp" />
+            android:layout_height="400dp"
+            android:background="@drawable/b3"
+            />
 
     <!--    <Button
             android:layout_width="wrap_content"
@@ -78,14 +85,7 @@
             android:id="@+id/Ab4"
             android:layout_height="wrap_content" />-->
 
-        <Button
-            android:layout_width="wrap_content"
-            android:text="LA"
-            android:layout_weight="1"
-            android:id="@+id/a4"
-            android:layout_height="500dp" />
-
-    <!--    <Button
+        <!--    <Button
             android:layout_width="wrap_content"
             android:text=""
             android:layout_weight="1"
@@ -93,19 +93,28 @@
             android:layout_height="wrap_content" />-->
 
         <Button
-            android:layout_width="wrap_content"
-            android:text="SI"
+            android:id="@+id/a4"
+            android:layout_width="90dp"
+            android:layout_height="400dp"
+            android:layout_weight="1"
+            android:background="@drawable/b3"/>
+
+        <Button
+            android:layout_width="90dp"
             android:layout_weight="1"
             android:id="@+id/b4"
-            android:layout_height="500dp" />
+            android:layout_height="400dp"
+            android:background="@drawable/e2"
+            />
 
 
         <Button
-            android:layout_width="wrap_content"
-            android:text="DO"
+            android:layout_width="90dp"
             android:layout_weight="1"
             android:id="@+id/c5"
-            android:layout_height="500dp" />
+            android:layout_height="400dp"
+            android:background="@drawable/d1"
+            />
 
 
     </LinearLayout>
