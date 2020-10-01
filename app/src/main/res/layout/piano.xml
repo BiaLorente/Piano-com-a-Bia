@@ -15,7 +15,7 @@
         android:layout_marginEnd="643dp"
         android:layout_marginRight="643dp"
         android:layout_marginBottom="11dp"
-        android:background="@drawable/d1"
+        android:background="@drawable/button_custom_d"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,20 +30,6 @@
             android:layout_height="wrap_content" />
         -->
 
-    <Button
-        android:id="@+id/d4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="555dp"
-        android:layout_marginRight="555dp"
-
-        android:layout_marginBottom="11dp"
-        android:background="@drawable/b3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/c4"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <!--    <Button
             android:layout_width="wrap_content"
             android:text=""
@@ -51,30 +37,37 @@
             android:id="@+id/Eb4"
             android:layout_height="wrap_content" />
     -->
+
+    <Button
+        android:id="@+id/d4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="305dp"
+
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="229dp"
+        android:layout_marginEnd="772dp"
+        android:layout_marginRight="772dp"
+        android:layout_marginBottom="239dp"
+        android:background="@drawable/button_custom_b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/e4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="467dp"
-        android:layout_marginRight="467dp"
+        android:layout_marginStart="323dp"
+        android:layout_marginLeft="323dp"
+        android:layout_marginEnd="613dp"
+        android:layout_marginRight="613dp"
         android:layout_marginBottom="11dp"
-        android:background="@drawable/e2"
+        android:background="@drawable/button_custom_e"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/d4"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/f4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="379dp"
-        android:layout_marginRight="379dp"
-        android:layout_marginBottom="11dp"
-        android:background="@drawable/d1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/e4"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <!--<Button
@@ -99,58 +92,79 @@
             android:layout_height="wrap_content" />-->
 
     <Button
+        android:id="@+id/f4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="575dp"
+        android:layout_marginLeft="575dp"
+        android:layout_marginEnd="689dp"
+        android:layout_marginRight="689dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/button_custom_d"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/g4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="291dp"
-        android:layout_marginRight="291dp"
-
-
+        android:layout_marginStart="663dp"
+        android:layout_marginLeft="663dp"
+        android:layout_marginEnd="601dp"
+        android:layout_marginRight="601dp"
         android:layout_marginBottom="11dp"
-        android:background="@drawable/b3"
+        android:background="@drawable/button_custom_b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/f4"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/a4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="203dp"
-        android:layout_marginRight="203dp"
+        android:layout_marginStart="751dp"
+        android:layout_marginLeft="751dp"
+        android:layout_marginEnd="513dp"
+        android:layout_marginRight="513dp"
         android:layout_marginBottom="11dp"
-        android:background="@drawable/b3"
+        android:background="@drawable/button_custom_b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/g4"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/b4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="115dp"
-        android:layout_marginRight="115dp"
+        android:layout_marginStart="839dp"
+        android:layout_marginLeft="839dp"
+        android:layout_marginEnd="425dp"
+        android:layout_marginRight="425dp"
         android:layout_marginBottom="11dp"
-        android:background="@drawable/e2"
+        android:background="@drawable/button_custom_e"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/a4"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <Button
         android:id="@+id/c5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="27dp"
-        android:layout_marginRight="27dp"
+        android:layout_marginStart="927dp"
+        android:layout_marginLeft="927dp"
+        android:layout_marginEnd="337dp"
+        android:layout_marginRight="337dp"
         android:layout_marginBottom="11dp"
-        android:background="@drawable/d1"
+        android:background="@drawable/button_custom_d"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/b4"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
