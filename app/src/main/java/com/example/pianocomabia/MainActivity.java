@@ -9,7 +9,6 @@ import android.widget.Button;
 
 public class MainActivity  extends AppCompatActivity {
     private Button piano_button;
-    private Button jogos_button;
 
 
     @Override
@@ -24,7 +23,6 @@ public class MainActivity  extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Piano.class));
             }
         });
-
 
 
     }
